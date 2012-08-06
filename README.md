@@ -1,8 +1,8 @@
 <head><meta charset="UTF-8"></head>
 #利用网页发送邮件
 ##原理：
-    利用web.py模块接收一个http请求，请求中包含收信人，主题和邮件内容，   
-然后分析这个请求，提取必要的信息，用smtp模块将邮件发送出去
+利用web.py模块接收一个http请求，请求中包含收信人，主题和邮件内容，   
+然后分析这个请求，提取必要的信息，用smtplib模块将邮件发送出去
 
 ##安装方法
 * git clone git@github.com:ma6174/webmail.git
